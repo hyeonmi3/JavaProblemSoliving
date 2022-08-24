@@ -3,7 +3,7 @@ package kr.hs.dgsw.d220613;
 import java.util.Scanner;
 
 public class Number_1027 {
-	// 년월일 입력 받아 형식 바꿔 출력하기
+	// CodeUp 년월일 입력 받아 형식 바꿔 출력하기
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		String ymd = sc.next();
