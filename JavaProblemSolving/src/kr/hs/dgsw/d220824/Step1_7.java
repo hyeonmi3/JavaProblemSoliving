@@ -9,7 +9,7 @@ public class Step1_7 {
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();
 		int b = sc.nextInt();
-		
-		System.out.printf("%d\n");
+
+		System.out.printf("%d\n%d\n%d\n%d\n%d", a+b, a-b, a*b, a/b, a%b);
 	}
 }
