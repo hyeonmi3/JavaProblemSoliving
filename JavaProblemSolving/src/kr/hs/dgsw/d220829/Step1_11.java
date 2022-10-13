@@ -14,9 +14,9 @@ public class Step1_11 {
 		
 		sc.close();
 		
-		System.out.println((A+B)%C);
-		System.out.println((A%C)+(B%C));
-		System.out.println((A*B)%C);
-		System.out.println((A%C)*(B%C));
+		System.out.println((A + B) % C);
+		System.out.println(((A % C) + (B % C)) % C);
+		System.out.println((A * B) % C);
+		System.out.println(((A % C) * (B % C)) % C);
 	}
 }
